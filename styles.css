@@ -1,6 +1,7 @@
 .homeContentImages {
     display: flex;
-}.homeContentImage {
+}
+img {
     width: 30%;
     height: 40%;
 }
