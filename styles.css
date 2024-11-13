@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-size: 3vw;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.headerTitles {
+    text-align: center;
+    background: linear-gradient(90deg, pink, cyan);
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 8vw;
+}
+.headerTitles h1 {
+    font-weight: bold;
+    font-style: italic;
+    font-family: cursive;
+}
+.headerTitles h2, h3, p {
+    font-style: italic;
+}
+.navTitles {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    background: linear-gradient(90deg, pink, cyan)
+}
+
+.navTitles li {
+    padding: 1.5vw;
+    background: linear-gradient(90 deg, red, white);
+    padding-right: 4vw;
+    padding-left: 4vw;
+    border: 2px solid black;
+    background: white;
+    border-radius: 5vw;
+}
+
+.navTitles li:hover {
+    background: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 32vw;
+}
+main {
+    background: linear-gradient(90deg, pink, cyan);
+}
+.homeContent {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+.homeContentImages {
+    width: 100vw;
+}
+.homeContentText {
+    letter-spacing: 1vw;
+    padding: 4vw;
+}
+.homeContentText .homeContentImage {
+    margin: 7vw;
+}
